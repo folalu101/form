@@ -7,12 +7,12 @@ $(document).ready(function() {
       const verb = $("#verb").val();
       const noun = $("#noun").val();
   
-      $(".person1").append(person1);
-      $(".person2").append(person2);
-      $(".animal").append(animal);
-      $(".exclamation").append(exclamation);
-      $(".verb").append(verb);
-      $(".noun").append(noun);
+      $(".person1").text(person1);
+      $(".person2").text(person2);
+      $(".animal").text(animal);
+      $(".exclamation").text(exclamation);
+      $(".verb").text(verb);
+      $(".noun").text(noun);
   
       $("#story").show();
   
